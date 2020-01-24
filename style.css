@@ -1,0 +1,236 @@
+* {
+  margin: auto 0;
+}
+
+.top-nav-section {
+  padding-bottom: 20px;
+}
+
+.plus-box {
+  text-align: right;
+  margin-right: 3%;
+}
+.plus-icon {
+  color: white;
+  background-color: red;
+  padding: 5px;
+  font-weight: 600px;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  justify-content: space-around;
+}
+
+.left-side-nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  align-items: left;
+  margin-bottom: 10px;
+}
+
+.right-side-nav {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.person-icon {
+  color: red;
+}
+
+.account-links {
+  display: flex;
+  flex-direction: row;
+  width: 15%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: red;
+}
+
+.navigation-row {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.navigation-row a {
+  padding: 3px;
+  color: black;
+  text-decoration: none;
+}
+
+.navigation-row a:hover {
+  text-decoration: underline;
+  color: orange;
+}
+
+.navigation-row a i {
+  font-size: small;
+}
+
+.hero-section {
+  background-image: url(https://bootstrapmade.com/demo/themes/Flattern/img/slides/nivo/bg-1.jpg);
+  height: 500px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 5%;
+}
+
+.hero-box {
+  background-color: rgba(46, 49, 49, 0.8);
+  color: white;
+  grid-row-start: 3;
+  margin-bottom: 30px;
+  padding: 25px;
+  border-bottom: #f03c02 5px solid;
+}
+
+.hero-button {
+  background-color: #f03c02;
+  border: 0;
+  padding: 15px;
+  color: white;
+  margin-top: 15px;
+  font-size: 1.2rem;
+  border-radius: 10%;
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px 20px;
+  background-color: seashell;
+}
+
+.quote-header {
+  font-size: 2rem;
+}
+
+.quote-button {
+  padding: 20px 30px;
+  font-size: 1.5rem;
+  background-color: #f03c02;
+  border-radius: 15px;
+  color: white;
+}
+
+.quote-button:hover {
+  background-color: steelblue;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 5% 10%;
+  padding-bottom: 5%;
+  border-bottom: rgba(191, 191, 191, 1) 0.5px solid;
+}
+
+.single-feature {
+  text-align: center;
+  margin: auto 5%;
+}
+
+.feature-icon {
+  color: white;
+  font-size: 2rem;
+  background-color: #f03c02;
+  border-radius: 50%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.feature-name {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.feature-copy {
+  margin-bottom: 15px;
+}
+
+.learn-more-link {
+  text-decoration: none;
+  color: #f03c02;
+}
+
+.recent-works {
+  margin: 5% 10%;
+  padding-bottom: 5%;
+  border-bottom: rgba(191, 191, 191, 1) 0.5px solid;
+}
+
+.recent-works-heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.works-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.works-panel {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.clients {
+  margin: 5% 10% 25%;
+}
+
+.clients-top-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chevrons {
+  background-color: red;
+  color: white;
+  padding: 10px;
+}
+
+.left-chevron {
+  opacity: 0.5;
+  margin-right: 5px;
+}
+
+.client-header {
+  font-size: 2rem;
+}
+
+.client-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 15px;
+  margin: 5% 0;
+}
+
+.client-logo {
+  object-fit: contain;
+  max-width: 100%;
+  border: grey 3px solid;
+}
